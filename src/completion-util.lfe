@@ -1,8 +1,8 @@
 (defmodule completion-util
   (export (find-completions-at 3)))
 
-(include-lib "apps/lfe-ls/include/utils.lfe")
-(include-lib "apps/lfe-ls/include/lsp-model.lfe")
+(include-lib "utils.lfe")
+(include-lib "lsp-model.lfe")
 
 (defun find-completions-at (position text trigger-char)
   (case trigger-char

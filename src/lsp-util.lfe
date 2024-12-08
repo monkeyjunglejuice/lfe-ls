@@ -1,7 +1,7 @@
 (defmodule lsp-util
   (export (completion-item-to-json 1)))
 
-(include-lib "apps/lfe-ls/include/lsp-model.lfe")
+(include-lib "lsp-model.lfe")
 
 (defun completion-item-to-json (citem)
   "Converts `completion-item` to LSP json representation."

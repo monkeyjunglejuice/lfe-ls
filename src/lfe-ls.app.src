@@ -8,13 +8,12 @@
         stdlib,
         getopt,
         lfe,
-        mochiweb,
-        jsx,
-        ljson
+        sasl,
+        jsx
     ]},
     {env, []},
     {modules, []},
 
     {licenses, ["Apache 2.0"]},
     {links, []}
- ]}.
+]}.

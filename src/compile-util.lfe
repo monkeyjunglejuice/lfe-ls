@@ -1,7 +1,7 @@
 (defmodule compile-util
   (export (compile-file 2)))
 
-(include-lib "apps/lfe-ls/include/lsp-model.lfe")
+(include-lib "lsp-model.lfe")
 
 (defun compile-file (path project-root)
   "Compiles file at `path` and returns a list of `diagnostic-item`s."

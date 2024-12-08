@@ -1,7 +1,7 @@
 (defmodule hover-util
   (export (get-docu 2)))
 
-(include-lib "apps/lfe-ls/include/lsp-model.lfe")
+(include-lib "lsp-model.lfe")
 
 (defun get-docu (text position)
   "Retrieves the Erlang EEP-48 documentation (if present) for the recognized token in `text` at `position`.

@@ -18,8 +18,8 @@
    (pid 0)
    (read-request 1)))
 
-(include-lib "apps/lfe-ls/include/utils.lfe")
-(include-lib "apps/lfe-ls/include/ls-model.lfe")
+(include-lib "utils.lfe")
+(include-lib "ls-model.lfe")
 
 ;;; ----------------
 ;;; config functions
